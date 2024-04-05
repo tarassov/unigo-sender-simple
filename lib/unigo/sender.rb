@@ -11,7 +11,7 @@ module Unigo
       attr_writer :configuration
 
       def configuration
-        @configuration ||= Configuration.new
+        @configuration ||= Unigo::Sender::Configuration.new
       end
 
       def configure
