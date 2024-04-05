@@ -23,5 +23,5 @@ end
 
 loader = Zeitwerk::Loader.new
 loader.inflector = Zeitwerk::GemInflector.new(__FILE__)
-loader.push_dir("#{__dir__}/unigo", namespace: Unigo::Sender)
+loader.push_dir("#{__dir__}/sender", namespace: Unigo::Sender)
 loader.setup
