@@ -1,4 +1,10 @@
 # frozen_string_literal: true
+
+require "json"
+require "json-schema"
+require "faraday"
+require "zeitwerk"
+
 module Unigo
   module Sender
     class << self

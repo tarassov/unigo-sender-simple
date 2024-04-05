@@ -4,6 +4,7 @@ module Unigo
   module Sender
     class Client
       include Unigo::Sender::Connection
+      include Unigo::Sender::Client::Email
 
       class BaseException < StandardError; end
       class InvalidCallbackAuth < BaseException; end

@@ -1,7 +1,6 @@
 require "json"
 require "faraday"
-require "hashie"
-
+require "faraday/mashify"
 module Unigo
   module Sender
     module Connection
